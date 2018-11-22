@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">whoisacatMQTTTest</string>
+    <string name="topic_for_posting">Type topic for posting</string>
+    <string name="text_for_posting">Type text for posting</string>
+    <string name="post">Post</string>
+    <string name="text_for_subscription">Type text for subscription</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="topic_of_subscription">Topic of subscription</string>
+    <string name="text_of_subscription">Text of subscription</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="get_settings">Accept</string>
+    <string name="domain_hint">Set domain name here</string>
+    <string name="port_hint">Set port here</string>
+    <string name="user_hint">Type username here</string>
+    <string name="password_hint">Type password here</string>
+    <string name="There_is_no_connection_string">There is no connection</string>
+    <string name="my_settings">test_settings</string>
+    <string name="client_id">Type client ID here</string>
+</resources>

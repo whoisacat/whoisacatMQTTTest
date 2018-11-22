@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <EditText
+        android:id="@+id/domain_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/client_id"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/password_view"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="10sp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:background="@color/num_picker_bck_gnd"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/my_settings"
+            android:text="@string/my_settings"
+            android:textSize="12sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|start"/>
+
+        <Button
+            android:id="@+id/get_settings_button"
+            android:text="@string/get_settings"
+            android:textSize="12sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|start"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:background="@color/num_picker_bck_gnd"
+        android:layout_height="40dp">
+
+        <EditText
+            android:id="@+id/postTopicTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:background="@color/num_picker_bck_gnd">
+
+        <EditText
+            android:id="@+id/postBodyTextView"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:width="120dp"
+            android:height="100dp"/>
+
+        <Button
+            android:id="@+id/postButton"
+            android:text="@string/post"
+            android:textSize="12sp"
+            android:width="12dp"
+            android:height="40dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:background="@color/num_picker_bck_gnd">
+
+        <EditText
+            android:id="@+id/subTopicEditText"/>
+
+        <Button
+            android:id="@+id/subButton"
+            android:text="@string/subscribe"
+            android:textSize="12sp"
+            android:width="12dp"
+            android:height="40dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/num_picker_bck_gnd">
+
+        <TextView
+            android:id="@+id/subTopicTextView"
+            android:width="40dp"
+            android:height="40dp"
+            android:editable="true"/>
+
+        <Button
+            android:id="@+id/unSubButton"
+            android:text="@string/unsubscribe"
+            android:textSize="12sp"
+            android:width="12dp"
+            android:height="40dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/num_picker_bck_gnd">
+
+        <TextView
+            android:id="@+id/subBodyTextView"
+            android:width="40dp"
+            android:editable="true"/>
+
+    </TableRow>
+
+</LinearLayout>
